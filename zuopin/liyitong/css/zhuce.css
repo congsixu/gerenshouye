@@ -1,0 +1,152 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 1.42rem;
+	background: #fffefe;
+	border-bottom: 0.02rem solid #f0e6e6;
+	margin-bottom: 1rem;
+}
+.head1{
+	width: 1rem;
+	height: 100%;
+	margin-left: 0.5rem;
+	float: left;
+}
+.head1 .icon-zuojiantou1{
+	font-size: 0.51rem;
+	color: #645a5a;
+	line-height: 1.42rem;
+}
+.head2{
+	width: 7.8rem;
+	height: 1.42rem;
+	float: left;
+	font-size: 0.51rem;
+	color: #645a5a;
+	line-height: 1.42rem;
+	text-align: center;
+}
+.diqu{
+	width: 9.9rem;
+	height: 1.42rem;
+	margin: 0 auto;
+    background: #fffefe;
+}
+.diqu_L{
+	width: 4.5rem;
+	height: 1.42rem;
+	font-size: 0.51rem;
+	float: left;
+	color: #645a5a;
+	line-height: 1.42rem;
+}
+.diqu_R{
+	width: 4.5rem;
+	height: 1.42rem;
+	float: right;
+	text-align: right;
+	font-size: 0.51rem;
+	color: #645a5a;
+	line-height: 1.42rem;
+}
+.diqu_R span{
+	font-size: 0.51rem;
+	color: #645a5a;
+	line-height: 1.42rem;
+}
+.diqu_R icon-youjiantou{
+	font-size: 0.51rem;
+	color: #645a5a;
+	line-height: 1.42rem;
+}
+.zhanghao{
+	width: 9.9rem;
+	height: 1.32rem;
+	margin: 0 auto;
+	border-bottom: 0.02rem solid #f0e6e6;
+}
+[name="zhanghao_1"]{
+	display: block;
+	width: 100%;
+	height: 1.3rem;
+	font-size: 0.34rem;
+	color: #927f7f;
+	line-height: 1.3rem;
+	border: none;
+}
+[name="zhanghao_1"]{
+	outline: none;
+}
+.mima{
+	width: 9.9rem;
+	height: 1.32rem;
+	margin: 0 auto;
+	border-bottom: 0.02rem solid #f0e6e6;
+}
+[name="mima_1"]{
+	display: block;
+	width: 100%;
+	height: 1.3rem;
+	font-size: 0.34rem;
+	color: #927f7f;
+	line-height: 1.3rem;
+	border: none;
+}
+[name="mima_1"]{
+	outline: none;
+}
+.yanzheng{
+	width: 9.9rem;
+	height: 1.32rem;
+	margin: 0 auto;
+	border-bottom: 0.02rem solid #f0e6e6;
+	position: relative;
+}
+.fasong{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.34rem;
+	color: #ff3b53;
+	line-height: 1.3rem;
+	margin-right: 0.3rem;
+}
+[name="yanzheng_1"]{
+	display: block;
+	width: 100%;
+	height: 1.3rem;
+	font-size: 0.34rem;
+	color: #927f7f;
+	line-height: 1.3rem;
+	border: none;
+}
+[name="yanzheng_1"]{
+	outline: none;
+}
+.tijiao{
+	display: block;
+	margin: 0.9rem auto 0.5rem;
+	width: 9.9rem;
+	height: 1.2rem;
+	border-radius: 0.08rem;
+	background: #dcd2d2;
+	font-size: 0.5rem;
+	color: #ffffff;
+	line-height: 1.2rem;
+	text-align: center;
+}
+footer{
+	width: 9.9rem;
+	height: auto;
+	margin: 0 auto;
+}
+footer span{
+	font-size: 0.3rem;
+	color: #927f7f;
+	line-height: 1rem;
+}
+footer a{
+	font-size: 0.3rem;
+	color: #645a5a;
+	line-height: 1rem;
+}

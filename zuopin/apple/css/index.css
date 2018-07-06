@@ -1,0 +1,544 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 44px;
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.main{
+	width: 100%;
+	height: 44px;
+	margin: 0 auto;
+	padding: 0 180px;
+	display: flex;
+	justify-content: space-between;
+}
+.main li{
+	height: 44px;
+	font-size: 12px;
+	line-height: 44px;
+	color: #fff;
+}
+.main li.caidan{
+	display: none;
+}
+@media screen and (max-width: 768px){
+	.main{
+		padding: 0 15px;
+	}
+	.main li.caidan{
+		display: block;
+ 	}
+ 	.main li.text{
+		display: none;
+ 	}
+	
+}
+.banner{
+	width: 100%;
+	background: #fff;
+	margin-top: 44px;
+}
+.banner li{
+	width: 100%;
+	height: 580px;
+	background: #fafafa;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.banner li:nth-child(2){
+	background:#f9f0eb;
+}
+.banner li:nth-child(3){
+	background:#f5f5f5;
+}
+.banner li h2{
+	z-index: 2;
+	width: 100%;
+	height: 60px;
+	margin-top: 90px;
+	font-size: 56px;
+	line-height: 60px;
+	color: #000;
+	font-style: normal;
+	font-weight: bolder;
+	text-align: center;
+}
+.banner li h3{
+	width: 100%;
+	height: 31px;
+	font-size: 27px;
+	line-height: 31px;
+	color: #000;
+	font-style: normal;
+	text-align: center;
+	margin-top: 10px;
+}
+.banner li p{
+	width: 100%;
+	height: 29px;
+	margin-top: 5px;
+	font-size: 15px;
+	line-height: 29px;
+	text-align: center;
+
+}
+.banner li p .one{
+	width: 100%;
+	height:29px;
+	font-size: 15px;
+	line-height: 29px;
+	text-align: center;
+	margin-right: 30px;
+}
+.banner li .image.iphonex{
+	width: 100%;
+	height:337px;
+	margin-top: 70px;
+	background: url("../img/iphone_x_large.jpg") no-repeat center;
+}
+.banner li .image.iphone8{
+	width: 100%;
+	height:380px;
+	margin-top: 10px;
+	background: url("../img/iphone_8_large.jpg") no-repeat center/537px 378px;
+}
+.banner li .image.ipad{
+	width: 100%;
+	height: 380px;
+	margin-top: 10px;
+	background: url("../img/ipad_large.jpg") no-repeat center/930px 355px;
+}
+@media screen and (max-width: 1068px){
+	.banner li .image.iphonex {
+		background: url("../img/iphone_x_medium.jpg") no-repeat center/736px 336px;
+	}
+	.banner li .image.iphone8{
+		background: url("../img/iphone_8_medium.jpg") no-repeat center/527px 373px;
+	}
+	.banner li .image.ipad{
+		background: url("../img/ipad_medium.jpg") no-repeat center/650px 325px;
+	}
+}
+@media screen and (max-width: 736px){
+	.banner li{
+		height: 500px;
+	}
+	.banner li h2{
+		width: 100%;
+		height: 30px;
+		margin-top: 50px;
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.banner li h3{
+		width: 100%;
+		height: 20px;
+		font-size: 15px;
+		line-height:20px;
+	}
+	.banner li .image.iphonex {
+		width: 100%;
+		height: 353px;
+		margin-top: 40px;
+		background: url("../img/iphone_x_small.jpg") no-repeat center/320px 353px;
+	}
+	.banner li .image.iphone8{
+		width: 100%;
+		height: 460px;
+		margin-top: -102px;
+		background: url("../img/iphone_8_small.jpg") no-repeat center/320px 460px;
+	}
+	.banner li .image.ipad{
+		width: 100%;
+		height: 340px;
+		margin-top: 20px;
+		background: url("../img/ipad_small.jpg") no-repeat center/228px 340px;
+	}
+}
+.list{
+	width: 100%;
+	background:#fff;
+	overflow: hidden;
+}
+.list li{
+	width: 50%;
+	height:590px;
+	border:10px solid #fff;
+	float:left;
+	overflow: hidden;
+}
+.list li{
+	border-top:none;
+}
+.list li:nth-child(2n){
+	border-left:none;
+}
+.list li .image{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.list li .image.one{
+	background: #eeeeee url("../img/watch_series_3_large.jpg") no-repeat center bottom/447px 395px;
+}
+.list li .image.two{
+	background: url("../img/how_to_shoot_large.jpg") no-repeat center center/cover;
+}
+.list li .image.three {
+	background: url("../img/music_three_months_large.jpg") no-repeat center center/cover;
+}
+.list li .image.four {
+	background: url("../img/behind_the_mac_large.jpg") no-repeat center center/cover;
+}
+.list li .image.five{
+	background: url("../img/airpods_large.jpg") no-repeat center bottom/385px 304px;
+}
+.list li .image.six{
+	background:#fff url("../img/homepod_large.jpg") no-repeat center bottom/382px 396px;
+}
+.list li .image .img{
+	width: 100%;
+	height: 49px;
+	margin-top: 41px;
+	background: url("../img/watch_series_3_logo_large.png") no-repeat center center/131px 49px;
+}
+.list li .image h3{
+	height:26px;
+	margin: 14px auto 0;
+	font-size: 21px;
+	line-height: 26px;
+	color: #000;
+	text-align: center;
+	font-style: normal;
+	font-weight: 400;
+}
+.list li .image p{
+	height:25px;
+	margin: 10px auto 0;
+	font-size: 17px;
+	line-height: 25px;
+	color: #000;
+	text-align: center;
+}
+.list li .image p a{
+	margin-right: 30px;
+	color: blue;
+}
+.list li .image h4{
+	text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+	color: #fff;
+	margin-top: 52px;
+}
+.list li .image h5{
+	text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 400;
+	color: #fff;
+	margin-top: 4px;
+}
+.list li .image h5 a{
+	margin-right: 20px;
+	color: #fff;
+	font-size: 17px;
+}
+.list li .image h2{
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+	color: #000;
+	margin-top: 52px;
+}
+@media screen and (max-width: 1068px){
+	.list li{
+		height: 500px;
+	}
+	.list li .image.one{
+	background: #eeeeee url("../img/watch_series_3_medium.jpg") no-repeat center bottom/345px 328px;
+	}
+	.list li .image.two{
+		background: url("../img/how_to_shoot_medium.jpg") no-repeat center center/cover;
+	}
+	.list li .image.three {
+		background: url("../img/music_three_months_medium.jpg") no-repeat center center/cover;
+	}
+	.list li .image.four {
+		background: url("../img/behind_the_mac_medium.jpg") no-repeat center center/cover;
+	}
+	.list li .image.five{
+		background: url("../img/airpods_medium.jpg") no-repeat center bottom/269px 212px;
+	}
+	.list li .image.six{
+		background:#fff url("../img/homepod_medium.jpg") no-repeat center bottom/317px 331px;
+	}
+	.list li .image .img{
+		height: 39px;
+		margin-top: 34px;
+		background: url("../img/watch_series_3_logo_medium.png") no-repeat center center/105px 39px;
+	}
+	.list li .image h3{
+		height:23px;
+		margin: 3px auto 0;
+		font-size: 21px;
+		line-height: 23px;
+	}
+	.list li .image p a{
+		margin-right: 15px;
+	}
+	.list li .image h4.two{
+		font-size: 32px;
+   		line-height: 36px;
+   		font-weight: 600;
+		margin-top: 42px;
+	}
+	.list li .image h4.two span{
+		display: block;
+	}
+	.list li .image h5.two{
+		font-size: 19px;
+   		line-height: 23px;
+   		font-weight: 600;
+		margin-top: 3px;
+		font-weight: normal;
+	}
+	.list li .image h5.two span{
+		display: block;
+	}
+	.list li .image h4{
+		font-size: 32px;
+   	 	line-height: 1.125;
+    	font-weight: 600;
+    	letter-spacing: .004em;
+	}
+	.list li .image h5{
+		font-size: 19px;
+    	line-height: 1.21053;
+    	font-weight: 400;
+    	letter-spacing: .012em;
+	}
+	.list li .image h2{
+		font-size: 32px;
+	    line-height: 36px;
+	    font-weight: 600;
+		color: #000;
+		margin-top: 42px;
+    }
+}
+@media screen and (max-width: 735px){
+	.list li{
+		width: 100%;
+		height: 510px;
+		border-bottom: 10px solid #fff;
+	}
+	.list li .image.one{
+	background: #eeeeee url("../img/watch_series_3_small.jpg") no-repeat center bottom/321px 346px;
+	}
+	.list li .image.two{
+		background: url("../img/how_to_shoot_small.jpg") no-repeat center center/cover;
+	}
+	.list li .image.three {
+		background: url("../img/music_three_months_small.jpg") no-repeat center center/cover;
+	}
+	.list li .image.four {
+		background: url("../img/behind_the_mac_small.jpg") no-repeat center center/cover;
+	}
+	.list li .image.five{
+		background: url("../img/airpods_small.jpg") no-repeat center center/244px 193px;
+	}
+	.list li .image.six{
+		background:#fff url("../img/homepod_small.jpg") no-repeat center bottom/331px 346px;
+	}
+
+}
+
+
+footer{
+	width: 100%;
+	font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: -.008em;
+    background-color: #f2f2f2;
+    color: #333;
+    overflow: hidden;
+    position: relative;
+}
+.box{
+	width: 82%;
+	margin: 40px auto 0;
+	/* padding: 40px 22px 0; */
+	overflow: hidden;
+}
+.box li{
+	width: 20%;
+	float: left;
+}
+.box li h2{
+	width: 100%;
+	height: 16px;
+	margin-bottom: 9.6px;
+	font-weight: bold;
+}
+.box li h2 span{
+	display: none;
+}
+.box li a{
+	display: block;
+	width: 100%;
+	height: 16px;
+	margin-bottom: 9.6px;
+	color: #333;
+}
+.box li a.teshu{
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 768px){
+	.box{
+		width: 90%;
+		margin: 20px auto 0;
+		overflow: hidden;
+	}
+	.box li{
+		width: 100%;
+		float: none;
+		overflow: auto;
+	}
+	.box li h2{
+		width: 100%;
+		height: 36px;
+		cursor: pointer;
+		line-height: 36px;
+		border-bottom: 1px solid #d6d6d6;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.box li h2 span{
+		display: inline;
+		float: right;
+	}
+	.box li a{
+		display: none;
+	}
+}
+
+footer p{
+	width: 82%;
+	height:30px;
+	margin: 30px auto 0;
+	font-size: 10px;
+	line-height: 30px;
+	border-bottom: 1px solid #d6d6d6;
+}
+footer p span{
+	color: #888a8a;
+}
+footer p a{
+	color: #0e7acb;
+}
+
+footer .last{
+	width:82%;
+	overflow: hidden;
+	margin: 9px auto 27px;
+	position: relative;
+}
+footer .last .last_L{
+	float: left;
+	font-size: 10px;
+	line-height: 15px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	color: #ae9588;
+}
+footer .last .last_C{
+	float: left;
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+footer .last .last_R{
+	float: right;
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+footer .last .last_C a{
+	float: left;
+	display: block;
+	padding: 0 10px;
+	border-right: 1px solid #d6d6d6;
+	font-size: 10px;
+	line-height: 15px;
+	color: #976b55;
+}
+footer .last .last_C a:last-child{
+	border-right: none;
+}
+footer .last .last_R img{
+	widows:21px;
+	height:16px;
+	padding-left: 5px;
+}
+footer .last .last_R a{
+	color: #ae9588;
+}
+@media screen and (max-width: 912px){
+	footer .last .last_L{
+		float: none;
+	}
+	footer .last .last_C{
+		float: none;
+	}
+	footer .last .last_C a:first-child{
+		padding-left: 0;
+	}
+	footer .last .last_R {
+		float: none;
+		position: absolute;
+		top:  0;
+		right: 0;
+	}
+}
+@media screen and (max-width: 768px){
+	footer p{
+		width: 90%;
+	}
+	footer .last{
+		width:90%;
+	}
+	footer .last .last_L{
+		float: none;
+		margin-top: 52px;
+	}
+	footer .last .last_C{
+		float: none;
+	}
+	footer .last .last_R{
+		position: absolute;
+		left: 0;
+		top:15px;
+	}
+}
+a:hover{
+	text-decoration: underline;
+}
+

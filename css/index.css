@@ -1,0 +1,397 @@
+
+
+/* 公共样式 最小屏下  小于768px */
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+    text-decoration: none;
+}
+body a.five{
+    text-decoration: none;
+    color: #000;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background: #212A3F;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+header .main{
+	display: flex;
+	justify-content: space-between;
+}
+header .main .title{
+	font-size: 30px;
+	color: #fa3447;
+    font-weight: 100;
+    line-height: 60px;
+}
+header .main .nav a.link{
+	font-size: 14px;
+	font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+    background-color: #212A3F;
+    padding-right: 10px;
+    display: none;
+}
+header .main .nav a.link:first-child{
+	color: #fff;
+}
+header .main .nav a.link:hover{
+	color: #fff;
+	text-decoration: none;
+}
+header .main .nav a.list{
+	display: inline-block;
+}
+header .main .nav a.list .iconfont{
+	font-size: 30px;
+	color: #fff;
+    font-weight: 100;
+    line-height: 60px;
+}
+
+.banner{
+	width: 100%;
+	overflow: hidden;
+}
+.banner .backg{
+	background:#645862 url(../img/bg.png) no-repeat top center/cover;
+	background-attachment: fixed;
+    padding: 180px 0 120px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.banner .backg .text-box{
+    background: rgba(33, 42, 63, 0.5);
+    color: white;
+    display: block;
+    padding: 20px 40px;
+    text-align: center;
+}
+.banner .backg .text-box p{
+	font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+}
+.banner .backg .text-box h2{
+	font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 7px double #fa3447;
+    border-top: 7px double #fa3447;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+.banner .backg .text-box h3{
+	font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+.banner .backg .text-box h4{
+	font-style: normal;
+	font-size: 14px;
+    line-height: 1.42857143;
+}
+/* .banner .backg .text-box h4 span{
+	font-size: 15px;
+    font-weight: 400;
+    color: #83D3C9;
+} */
+.banner .backg .text-box span{
+	display: block;
+    cursor: pointer;
+    color: #fff;
+    border: #fff solid 1px;
+    padding: 10px 22px;
+    margin-top: 20px;
+    line-height: 4;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+.banner .backg .text-box span:hover{
+    background:rgba(255, 255, 255, 0.3);
+}
+.banner .some-notes{
+	padding: 40px 0px;
+    float: left;
+}
+.banner .some-notes h2{
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+    color: #8AB839;
+    text-transform: uppercase;
+}
+.banner .some-notes p{
+	width: 75%;
+    margin: 0 auto;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.feature{
+	width: 100%;
+	background: #8ab839;
+    padding: 30px 0px;
+}
+.feature .title{
+	margin-bottom: 30px;
+    margin-top: 30px;
+}
+.feature .title h2{
+	text-align: center;
+	line-height: 1.1;
+    color: inherit;
+}
+.feature .title:after{
+    display: block;
+    margin: 17px auto 0px;
+    width: 80px;
+    height: 1px;
+    background: #FFF none repeat scroll 0% 0%;
+    content: "";
+}
+.feature .con{
+	width: 100%;
+}
+.feature .con li{
+	margin: 30px 0;
+}
+.feature .con li .pic img{
+	display: block;
+	text-align: center;
+    width: 80px;
+    margin: 0 auto;
+}
+.feature .con li .text{
+	padding: 0 15px;
+    text-align: center;
+}
+.feature .con li .text h4{
+	color: #2e2e2e;
+    font-weight: 400;
+    font-size: 25px;
+}
+.feature .con li .text p{
+	margin: 0 0 10px;
+	font-weight: 400;
+    font-size: 15px;
+    color: #2E2E2E;
+}
+
+
+.sample{
+	width: 100%;
+	background: #fff;
+	padding: 30px 15px;
+}
+.sample .title{
+	margin-bottom: 30px;
+    margin-top: 30px;
+}
+.sample .title h2{
+	text-align: center;
+	line-height: 1.1;
+    color: inherit;
+}
+.sample .title:after{
+    display: block;
+    margin: 17px auto 0px;
+    width: 80px;
+    height: 1px;
+    background: #8ab839 none repeat scroll 0% 0%;
+    content: "";
+}
+.sample .con{
+	width: 100%;
+}
+.sample .con li{
+	margin: 20px 0px;
+	padding: 0 15px;
+}
+.sample .con li a{
+	color: #337ab7;
+    text-decoration: none;
+}
+.sample .con li .pic{
+	width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.sample .con li .pic img{
+	display: block;
+	width: 100%;
+    height: 200px;
+}
+.sample .con li .pic .hover{
+	width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    background:none repeat scroll 0% 0% rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+.sample .con li:hover .pic .hover{
+	transform: translateY(200px);
+}
+.sample .con li h3{
+	text-align: center;
+	font-style: normal;
+    padding: 15px 0px;
+    font-size: 15px;
+    width: 100%;
+    font-weight: 600;
+    background: #8ab839;
+    margin: 0;
+    color: #fff;
+}
+
+
+.contact{
+    width: 100%;
+    padding: 60px 0px;
+}
+.contact .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact .title h2{
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+.contact .title:after{
+    display: block;
+    margin: 17px auto 0px;
+    width: 80px;
+    height: 1px;
+    background: #8ab839 none repeat scroll 0% 0%;
+    content: "";
+}
+.contact .con{
+    width: 100%;
+}
+.contact .con .number .form-group{
+    margin-bottom: 15px;
+}
+.contact .con .number .form-group .name{
+    height: 46px;
+    padding: 12px;
+    background: rgba(33, 42, 63, 0.2);
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact .con .number .form-group .message{
+    height: 66px;
+}
+
+.contact .con .number .bun-sub{
+    color: #fff;
+    background-color: #8AB839;
+    font-size: 18px;
+    padding: 10px 30px;
+    display: inline-block;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.contact .con .add .top-empty{
+    height: 150px;
+}
+.contact .con .add .address p{
+    margin: 0 0 10px;
+    line-height: 20px;
+}
+.contact .con .add .address p .iconfont{
+    padding-right: 10px;
+    font-size: 15px;
+    color: #8AB839;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+
+.note{
+    background: #645862 url(../img/notes-bg.jpg) no-repeat top center/cover;
+    background-attachment: fixed;
+    color: white;
+    cursor: default;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-bottom: 60px;
+}
+.note .last{
+    background: rgba(33, 42, 63, 0.9);
+    padding: 80px 0px;
+}
+.note .last .famous p{
+    font-size: 17px;
+    margin: 0px ;
+    font-weight: 300;
+    line-height: 30px;
+}
+.note .last .url{
+    text-decoration: none;
+    display: block;
+    padding: 13px 0;
+    background: #8ab839;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+@media screen and (min-width: 768px){
+	header .main .nav a.link{
+		display: inline-block;
+	}
+	header .main .nav a.list{
+		display: none;
+	}
+
+
+	.feature .con{
+		text-align: left;
+	}
+	.feature .con li .text{
+    	text-align: left;
+	}
+}
+
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (min-width: 1200px){
+	
+}

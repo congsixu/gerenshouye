@@ -1,0 +1,124 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 1.42rem;
+	background: #fffefe;
+	border-bottom: 0.02rem solid #f0e6e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.head1{
+	width: 1rem;
+	height: 100%;
+	margin-left: 0.5rem;
+	float: left;
+}
+.head1 .icon-zuojiantou1{
+	font-size: 0.51rem;
+	color: #645a5a;
+	line-height: 1.42rem;
+}
+.head2{
+	width: 6rem;
+	height: 1.12rem;
+	margin-left: 1.55rem;
+	margin-top: 0.26rem;
+	float: left;
+}
+.head2 li a{
+	font-size: 0.38rem;
+	color: #321e1e;
+	line-height: 1.06rem;
+	padding: 0 0.14rem;
+	margin-right: 0.72rem;
+	border-bottom: 0.06rem solid #fffefe;
+	float: left;
+}
+.head2 li:nth-child(2) a{
+	color: #ff2d47;
+	border-bottom: 0.06rem solid #ff2d47;
+}
+.img{
+	width: 100%;
+	height: 39.29rem;
+	margin-bottom: 1.48rem;
+	margin-top: 1.44rem;
+}
+footer{
+	width: 100%;
+	height: 1.47rem;
+	border-top: 0.01rem solid #f0ebeb;
+	background: #ffffff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+.foot_L{
+	width: 4.79rem;
+	height: 100%;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+}
+.tubiao{
+	display: block;
+	/* width:0.7rem; */
+	height: 100%; 
+	padding-top: 0.18rem;
+}
+.tubiao h1{
+    /* width: 0.7rem; */
+    height: 0.3rem;
+    margin-top: 0.14rem;
+    font-size: 0.21rem;
+	color: #999999;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.icon{
+	width:0.67rem;
+	height: 0.63rem;
+	text-align: center;
+}
+.icon .icon-shouye1{
+	font-size: 0.63rem;
+	color: #6b6b6b;
+	line-height: 0.63rem;
+	text-align: center;
+}
+.icon .icon-dianpu{
+	font-size: 0.63rem;
+	color: #6b6b6b;
+	line-height: 0.63rem;
+	text-align: center;
+}
+.icon .icon-shoucang{
+	font-size: 0.63rem;
+	color: #6b6b6b;
+	line-height: 0.63rem;
+	text-align: center;
+}
+.foot2{
+	width: 2.85rem;
+	height: 100%;
+	background: #ffe817;
+	margin-left: 0.31rem;
+	float: left;
+	font-size: 0.38rem;
+	color: #424242;
+	line-height: 1.47rem;
+	text-align: center;
+}
+.foot3{
+	width: 2.85rem;
+	height: 100%;
+	background: #ff6699;
+	float: left;
+	font-size: 0.38rem;
+	color: #fff8fb;
+	line-height: 1.47rem;
+	text-align: center;
+}

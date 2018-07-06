@@ -1,0 +1,254 @@
+@import url(base.css);
+header{
+	width: 100%;
+	height: 2.67rem;
+	background: #fffefe;
+	position: fixed;
+	left: 0;
+	top: 0; 
+	z-index: 99;
+}
+.head_up{
+	width: 3.5rem;
+	height: 1.12rem;
+	margin: 0 auto;
+}
+.head_up li a{
+	display: block;
+	font-size: 0.38rem;
+	color: #8c7878;
+	line-height: 1.06rem;
+	padding: 0 0.14rem ;
+	/* margin: 0 0.35rem; */
+	border-bottom: 0.06rem solid #fffefe;
+	float: left;
+}
+.head_up li:first-child a{
+	color: #ff2d47;
+	border-bottom: 0.06rem solid #ff2d47;
+	margin-right: 0.35rem;
+}
+.head_down{
+	width: 10.2rem;
+	height: 0.9rem;
+	border-radius: 0.45rem;
+	background: #f9f4f4;
+	margin: 0.27rem auto;
+}
+.sousuo{
+	width: 0.53rem;
+	height: 0.9rem;
+	float: left;
+	margin-left: 3rem;
+}
+.sousuo .icon-fangdajing{
+	font-size: 0.36rem;
+	color: #967878;
+	line-height: 0.9rem;
+}
+.head_down h1{
+	float: left;
+	width: 3.8rem;
+	height: 100%;
+	font-size: 0.36rem;
+	color: #967878;
+	line-height: 0.9rem;
+	font-weight: normal;
+}
+.banner{
+	width: 100%;
+	height: 8.40rem;
+	margin-top: 2.67rem;
+	background: #fff;
+}
+.banner_up{
+	width: 100%;
+	height: 1.20rem;
+    display: flex;
+    justify-content: space-between;
+}
+.banner_up_L{
+	width: 1.28rem;
+	height: 1.20rem;
+	font-size: 0.32rem;
+	line-height: 1.19rem;
+	text-align: center;
+	color: #8f7b7b;
+}
+.banner_up_R{
+	height: 100%;
+	margin-right: 0.3rem;
+}
+.banner_up_R span{
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	color: #503c3c;
+	font-weight: normal;
+}
+.banner_up_R .icon-sanjiaoright{
+	font-size: 0.24rem;
+	line-height: 1.19rem;
+	color: #8c7878;
+}
+.banner_down{
+	width: 100%;
+	height: 7.2rem;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+}
+.banner_down_box{
+	width: 8.25rem;
+	height: 7.2rem;
+	float: left;
+}
+.banner_down_box li a{
+	display: block;
+	width: 8.25rem;
+	height: 2.4rem;
+}
+.banner_img{
+	width: 3.9rem;
+	height: 2.1rem;
+	float: left;
+}
+.banner_down_box_R{
+	width: 4.03rem;
+	height: 2.1rem;
+	float: right;
+	padding-top: 0.33rem;
+	box-sizing: border-box;
+}
+.banner_down_box_R span{
+	display: block;
+	font-size: 0.38rem;
+	color: #321e1e;
+	line-height: 0.78rem;
+}
+.banner_down_box_R span:last-child{
+	display: block;
+	font-size: 0.30rem;
+	color: #a09696;
+	line-height: 0.70rem;
+}
+.list{
+	width: 100%;
+	margin-bottom: 1.44rem;
+}
+.pinlei{
+	width: 100%;
+	height: 10.65rem;
+	background: #ffffff;
+	border-top: 0.3rem solid #faf5f5;
+}
+.pinlei_up{
+	width: 100%;
+	height: 1.20rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pinlei_down{
+	width: 100%;
+	height: 9.45rem;
+	padding: 0 0.33rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.pinlei_down li{
+	display: block;
+	width: 4.92rem;
+	height: 2.85rem;
+	position: relative;
+}
+.pinlei_down li:nth-child(2n){
+	margin-right: 0;
+}
+.list_img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pinlei_down li a h1{
+	width: 4.44rem;
+	height: 0.75rem;
+	position: absolute;
+	right: 0;
+	top: 0.73rem;
+	font-size: 0.43rem;
+	color: #321d1f;
+	line-height: 0.75rem;
+}
+.pinlei_down li a p{
+	width: 4.44rem;
+	height: 0.65rem;
+	position: absolute;
+	right: 0;
+	top: 1.48rem;
+	font-size: 0.35rem;
+	color: #321d1f;
+	line-height: 0.65rem;
+}
+footer{
+	width: 100%;
+	height: 1.42rem;
+	border-top: 0.02rem solid #f0ebeb;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fffefe;
+	z-index: 999;
+	display: flex;
+	justify-content: space-around;
+}
+.tubiao{
+	/* width:0.7rem; */
+	height: 100%; 
+	padding-top: 0.15rem;
+}
+.tubiao h1{
+    /* width: 0.7rem; */
+    height: 0.27rem;
+    margin-top: 0.21rem;
+    font-size: 0.21rem;
+	color: #321e1e;
+	line-height: 0.21rem;
+	text-align: center;
+}
+.tubiao h1:nth-child(3){
+	color: #ff4258;
+}
+.icon{
+	width:0.7rem;
+	height: 0.67rem;
+}
+.icon .icon-shouye{
+	font-size: 0.67rem;
+	color: #b9aaaa;
+	line-height: 0.67rem;
+	text-align: center;
+}
+.icon .icon-huangguan1{
+	font-size: 0.67rem;
+	color: #b9aaaa;
+	line-height: 0.67rem;
+	text-align: center;
+}
+.icon .icon-fenlei2{
+	font-size: 0.67rem;
+	color: #ff4258;
+	line-height: 0.67rem;
+	text-align: center;
+}
+.icon .icon-ai-cart{
+	font-size: 0.67rem;
+	color: #b9aaaa;
+	line-height: 0.67rem;
+	text-align: center;
+}
+.icon .icon-wode-active{
+	font-size: 0.67rem;
+	color: #b9aaaa;
+	line-height: 0.67rem;
+	text-align: center;
+}

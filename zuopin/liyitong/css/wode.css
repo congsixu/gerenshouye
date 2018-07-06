@@ -1,0 +1,360 @@
+@import url(base.css);
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fffefe;
+	z-index: 999;
+	width: 100%;
+	height: 1.32rem;
+	display: flex;
+	justify-content: space-between;
+}
+.head1{
+	display: block;
+	width: 1.72rem;
+	height: 100%;
+	margin-left: 0.54rem;
+}
+.head1 .icon-shezhi{
+	font-size: 0.54rem;
+	line-height: 1.32rem;
+	color: #645a5a;
+	font-weight: normal;
+}
+header h1{
+	width: 6.28rem;
+	height: 100%;
+	font-size: 0.38rem;
+	line-height: 1.32rem;
+	color: #321e1e;
+	font-weight: normal;
+	text-align: center;
+}
+.head3{
+	display: block;
+	width: 1.19rem;
+	height: 100%;
+}
+.head3 .icon-kefu{
+	font-size: 0.54rem;
+	line-height: 1.32rem;
+	color: #645a5a;
+	font-weight: normal;
+}
+.head4{
+	display: block;
+	width: 1.07rem;
+	height: 100%;
+}
+.head4 .icon-qiandao{
+	font-size: 0.54rem;
+	line-height: 1.32rem;
+	color: #645a5a;
+	font-weight: normal;
+}
+.banner{
+	width: 100%;
+	height: 5.48rem;
+	margin-top: 1.32rem;
+	padding-top: 0.69rem;
+	box-sizing: border-box;
+	background: #fffefe;
+}
+.banner_up{
+	width: 100%;
+	height: 2.02rem;
+	position: relative;
+}
+.sekuai1{
+    width: 0.03rem;
+    height: 0.45rem;
+    background: #f0e6e6;
+    position: absolute;
+    top: 0.78rem;
+    right: 4.56rem;
+}
+.sekuai2{
+    width: 0.03rem;
+    height: 0.45rem;
+    background: #f0e6e6;
+    position: absolute;
+    top: 0.78rem;
+    right: 2.43rem;
+}
+.banner_up_L{
+	width: 2.02rem;
+	height: 2.02rem;
+	margin-left: 0.67rem;
+	float: left;
+}
+.banner_up_L img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.banner_up_R{
+	width: 6.69rem;
+	height: 0.87rem;
+	margin-top: 0.61rem;
+	float: right;
+}
+.banner_up_R li a{
+	width: 2.1rem;
+	height: 100%;
+	display: block;
+	margin-right: 0.03rem;
+	float: left;
+	text-align: center;
+}
+.banner_up_R li:last-child a{
+	margin-right: 0;
+	width: 2.43rem;
+}
+.banner_up_R li a h1{
+	font-size: 0.32rem;
+	color: #321e1e;
+	line-height: 0.32rem;
+	margin-bottom: 0.25rem;
+}
+.banner_up_R li a p{
+	font-size: 0.30rem;
+	font-weight: normal;
+	color: #321e1e;
+	line-height: 0.30rem;
+}
+.banner_down{
+	width: 100%;
+	height: 1.18rem;
+	margin-top: 0.87rem;
+	display: flex;
+	justify-content: space-around;
+}
+.banner_down li a{
+    width: auto;
+    height: 100%;
+    text-align: center;
+}
+.banner_down1{
+    height: 0.60rem;
+    margin-bottom: 0.24rem;
+    text-align: center;
+}
+.banner_down1 .icon-gouwuche2{
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	color: #645a5a;
+}
+.banner_down1 .icon-wodedingdan{
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	color: #645a5a;
+}
+.banner_down1 .icon-wodeyouhuijuan{
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	color: #645a5a;
+}
+.banner_down1 .icon-naozhong{
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	color: #645a5a;
+}
+.banner_down li a p{
+	height: 0.34rem;
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	color: #321e1e;
+}
+.shengti{
+	width: 100%;
+	height: auto;
+	margin: 0.3rem 0 1.8rem;
+}
+.shengti:after{
+   content: "";
+   display: block;
+   clear: both;
+   width: 0;
+   height: 0;
+   line-height: 0;
+}
+.shengti_up{
+	width: 100%;
+	height: 1.5rem;
+	border-bottom: 0.02rem solid #f0e6e6;
+	padding-top: 0.14rem;
+	box-sizing: border-box;
+}
+.shengti_up li a{
+	display: block;
+	font-size: 0.36rem;
+	color: #321e1e;
+	line-height: 0.94rem;
+	padding: 0 0.14rem ;
+	border-bottom: 0.06rem solid #fffefe;
+	float: left;
+}
+.shengti_up li:first-child a{
+	color: #ff2d47;
+	border-bottom: 0.06rem solid #ff2d47;
+	margin-right: 1.57rem;
+	margin-left:3.6rem;
+}
+.shengti_C{
+	display: block;
+	width: 100%;
+	height: 1.53rem;
+	margin-top: 0.3rem;
+	position: relative;
+}
+.C1{
+   position: absolute;
+   top: 0.59rem;
+   left: 0.47rem;
+   width: 2.83rem;
+   height: 0.41rem;
+   font-size: 0.41rem;
+   line-height: 0.41rem;
+   color: #321e1e;
+}
+.C2{
+	position: absolute;
+   bottom: 0rem;
+   left: 0.47rem;
+   width: 2.83rem;
+   height: 0.25rem;
+   font-size: 0.25rem;
+   line-height: 0.25rem;
+   color: #a09696;
+}
+.C3{
+	position: absolute;
+   top: 0.54rem;
+   left: 3.3rem;
+   width: 0.84rem;
+   height: 0.45rem;
+   border-radius: 0.04rem;
+   background: #f5f0f0;
+   font-size: 0.24rem;
+   line-height: 0.45rem;
+   color: #503c3c;
+   text-align: center;
+}
+.C4{
+   position: absolute;
+   top: 0rem;
+   right: 0rem;
+   width: 0.66rem;
+   height: 1.53rem;
+}
+.C4 .icon-youjiantou{
+   font-size: 0.35rem;
+   line-height: 1.53rem;
+   color: #dcd2d2;
+}
+.shengti_img{
+	width: 9.89rem;
+	height: auto;
+	margin: 0.3rem auto 1rem;
+}
+.shengti_img:after{
+   content: "";
+   display: block;
+   clear: both;
+   width: 0;
+   height: 0;
+   line-height: 0;
+}
+.shengti_img li a{
+	display: block;
+	width: 2.38rem;
+	height: 2.38rem;
+	margin: 0.12rem 0.12rem 0 0;
+	float: left;
+}
+.shengti_img li:nth-child(4n) a{
+	margin-right: 0;
+}
+.shengti_down{
+	width: 100%;
+	height: 1.08rem;
+	margin-bottom: 1rem;
+}
+.shengti_down1{
+	width: 1.08rem;
+	height: 1.08rem;
+	float: left;
+}
+.shengti_down2{
+	width: 3rem;
+	height: 1.08rem;
+	margin-left: 0.38rem;
+	font-size: 0.41rem;
+	color: #321e1e;
+	line-height: 1.08rem;
+	float: left;
+}
+footer{
+	width: 100%;
+	height: 1.42rem;
+	border-top: 0.02rem solid #f0ebeb;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fffefe;
+	z-index: 999;
+	display: flex;
+	justify-content: space-around;
+}
+.tubiao{
+	/* width:0.7rem; */
+	height: 100%; 
+	padding-top: 0.15rem;
+}
+.tubiao h1{
+    /* width: 0.7rem; */
+    height: 0.27rem;
+    margin-top: 0.21rem;
+    font-size: 0.21rem;
+	color: #321e1e;
+	line-height: 0.21rem;
+	text-align: center;
+}
+.tubiao h1:last-child{
+	color: #ff4258;
+}
+.icon{
+	width:0.7rem;
+	height: 0.67rem;
+}
+.icon .icon-shouye{
+	font-size: 0.67rem;
+	color: #b9aaaa;
+	line-height: 0.67rem;
+	text-align: center;
+}
+.icon .icon-huangguan1{
+	font-size: 0.67rem;
+	color: #b9aaaa;
+	line-height: 0.67rem;
+	text-align: center;
+}
+.icon .icon-fenlei2{
+	font-size: 0.67rem;
+	color: #b9aaaa;
+	line-height: 0.67rem;
+	text-align: center;
+}
+.icon .icon-ai-cart{
+	font-size: 0.67rem;
+	color: #b9aaaa;
+	line-height: 0.67rem;
+	text-align: center;
+}
+.icon .icon-wode-active{
+	font-size: 0.67rem;
+	color: #ff4258;
+	line-height: 0.67rem;
+	text-align: center;
+}
